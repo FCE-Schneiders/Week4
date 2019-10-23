@@ -1,0 +1,33 @@
+a {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
+
+a:active{
+    background-color: red;
+    
+}
+
+a:visited{
+    color:yellow;
+}
+
+a:focus{
+    color:purple;
+}
+
+a:hover{
+
+    color: lightblue;
+}
+
+
+/*vragen: hover verliest het. alles blijft geel. Klopt dat?*/
+
+/*- Maak nog 1 link. Wanneer de gebruiker de link activeert (klikt) wordt de link **rood**. 
+`:active`(Je zal merken dat de "active" staat van een element suuuuperkort duurt, 
+maar wat als je je muis ingedrukt houdt?)
+- Maak 1 link die **geel** wordt wanneer deze bezocht is `:visited`.
+- Maak 1 link die **paars** wordt wanneer er op gefocust wordt `:focus`.*/

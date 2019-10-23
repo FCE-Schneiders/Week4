@@ -1,0 +1,24 @@
+ body {
+     background-color: lightgrey;
+     margin: 10px;
+
+ }
+ 
+ .container  {
+                display: grid;
+                align-content: center;
+                grid-row;: 1fr;
+ }
+.header {
+    background-color: white  ;
+}
+
+.image {
+    background-color: rgb(243, 189, 227);
+}
+
+
+.footer {
+    background-color:#686de0;
+}
+
